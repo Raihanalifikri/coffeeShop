@@ -4,16 +4,11 @@ import 'package:coffee_app/model/data_menu_coffee.dart';
 import 'package:coffee_app/model/data_coffee_shop.dart';
 import 'package:coffee_app/detail_srceen_shop.dart';
 
-class MainScreen extends StatefulWidget {
+class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
 
 
 
-  @override
-  State<MainScreen> createState() => _MainScreenState();
-}
-
-class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -412,7 +407,7 @@ class _MainScreenState extends State<MainScreen> {
                                                 IconButton(
                                                   onPressed: () {
                                                     Navigator.push(
-                                                      context, MaterialPageRoute(builder: (context) => DetailScreenMenu(menuCoffee: menuCoffeeList[index],)),
+                                                      context, MaterialPageRoute(builder: (context) => DetailScreenMenu(menuCoffee: menuCoffeeList  [index],)),
                                                     );
                                                   },
                                                   icon: Icon(

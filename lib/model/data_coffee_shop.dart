@@ -33,8 +33,8 @@ var shopCoffeeList = [
     jam: "08:00 - 23:00",
     rating: "4.7",
     urlGambar: [
-      "https://images.unsplash.com/photo-1585641043596-cb6380a4b99c",
-      "https://images.unsplash.com/photo-1585641043596-cb6380a4b99c",
+     "https://i.pinimg.com/736x/f2/6b/69/f26b690138ac16f7ec93cfe39ca9351e.jpg",
+     "https://i.pinimg.com/736x/86/4b/fc/864bfc1fae9d3bbb877ee0b4d53e3b6c.jpg"
     ],
   ),
   CoffeeShop(

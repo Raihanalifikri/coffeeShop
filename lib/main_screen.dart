@@ -4,8 +4,19 @@ import 'package:coffee_app/model/data_menu_coffee.dart';
 import 'package:coffee_app/model/data_coffee_shop.dart';
 import 'package:coffee_app/detail_srceen_shop.dart';
 
-class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+class MainScreen extends StatefulWidget {
+  const MainScreen({super.key, this.username, this.password, this.firstname, this.lastname,});
+
+  final String? username;
+  final String? password;
+  final String? firstname;
+  final String? lastname;
+
+  @override
+  State<MainScreen> createState() => _MainScreenState();
+}
+
+class _MainScreenState extends State<MainScreen> {
 
 
 
